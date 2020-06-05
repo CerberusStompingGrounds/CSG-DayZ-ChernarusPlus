@@ -1,0 +1,156 @@
+---------------------------------------------
+Log C:\CSG-DayZ-ChernarusPlus\profiles\script_2020-06-05_04-15-49.log started at 05.06. 04:15:49
+
+SCRIPT       : Registered 220 temporary action enum(s), UAN==220
+SCRIPT    (W): @"scripts/3_Game/systems\inventory\handfsm.c,100": Missing script declaration for method 'SgNetworkService.CreateLobby'
+SCRIPT    (W): @"scripts/3_Game/systems\inventory\handfsm.c,100": Missing script declaration for method 'SgNetworkService.CancelFriend'
+SCRIPT    (W): @"scripts/3_Game/systems\inventory\handfsm.c,100": Missing script declaration for method 'SgNetworkService.GameServerLoadMatchInfo'
+SCRIPT    (W): @"scripts/3_Game/systems\inventory\handfsm.c,100": Missing script declaration for method 'SgNetworkService.CancelSearchForMatch'
+SCRIPT    (W): @"scripts/3_Game/systems\inventory\handfsm.c,100": Missing script declaration for method 'SgNetworkService.SetLobbySlot'
+SCRIPT    (W): @"scripts/3_Game/systems\inventory\handfsm.c,100": Missing script declaration for method 'SgNetworkService.LeaveLobby'
+SCRIPT    (W): @"scripts/3_Game/systems\inventory\handfsm.c,100": Missing script declaration for method 'SgNetworkService.DeleteLobby'
+SCRIPT    (W): @"scripts/3_Game/systems\inventory\handfsm.c,100": Missing script declaration for method 'SgNetworkService.JoinLobby'
+SCRIPT    (W): @"scripts/3_Game/systems\inventory\handfsm.c,100": Missing script declaration for method 'SgNetworkService.StartLobbyGame'
+SCRIPT    (W): @"scripts/3_Game/systems\inventory\handfsm.c,100": Missing script declaration for method 'SgNetworkService.GameServerReadyServer'
+SCRIPT    (W): @"scripts/3_Game/systems\inventory\handfsm.c,100": Missing script declaration for method 'SgNetworkService.LeaveTeam'
+SCRIPT    (W): @"scripts/3_Game/systems\inventory\handfsm.c,100": Missing script declaration for method 'SgNetworkService.LoadLobbyList'
+SCRIPT    (W): @"scripts/3_Game/systems\inventory\handfsm.c,100": Missing script declaration for method 'SgNetworkService.JoinTeam'
+SCRIPT    (W): @"scripts/3_Game/systems\inventory\handfsm.c,100": Missing script declaration for method 'SgNetworkService.GetUserUID'
+SCRIPT    (W): @"scripts/3_Game/systems\inventory\handfsm.c,100": Missing script declaration for method 'SgNetworkService.ReadyLobbyPlayer'
+SCRIPT    (W): @"scripts/3_Game/systems\inventory\handfsm.c,100": Missing script declaration for method 'SgNetworkService.GetService'
+SCRIPT    (W): @"scripts/3_Game/systems\inventory\handfsm.c,100": Missing script declaration for method 'SgNetworkService.GameServerFinishGame'
+SCRIPT    (W): @"scripts/3_Game/systems\inventory\handfsm.c,100": Missing script declaration for method 'SgNetworkService.InviteFriend'
+SCRIPT    (W): @"scripts/3_Game/systems\inventory\handfsm.c,100": Missing script declaration for method 'SgNetworkService.StartSearchForMatch'
+SCRIPT    (W): @"scripts/3_Game/human.c,1030": Missing script declaration for method 'HumanCommandScript.PostPhys_LockRotation'
+SCRIPT    (W): @"scripts/3_Game/human.c,284": Method not linked 'HumanAnimInterface.SetInt'
+SCRIPT    (W): @"scripts/3_Game/human.c,285": Method not linked 'HumanAnimInterface.SetBool'
+SCRIPT    (W): @"scripts/3_Game/human.c,280": Method not linked 'HumanAnimInterface.CallCommand'
+SCRIPT    (W): @"scripts/3_Game/human.c,283": Method not linked 'HumanAnimInterface.SetFloat'
+SCRIPT    (W): @"scripts/3_Game/systems\inventory\humaninventory.c,48": Method not linked 'HumanInventory.GetFirstUserReservedLocationForContainer'
+SCRIPT    (W): @"scripts/3_Game/systems\inventory\humaninventory.c,9": Missing script declaration for method 'HumanInventory.FindFirstUserReservedLocationIndexForContainer'
+SCRIPT    (W): @"scripts/3_Game/entities\inventoryitem.c,120": Unsafe down-casting, use 'Object.Cast' for safe down-casting
+SCRIPT       : CreateGame()
+SCRIPT       : ... Backlit Effects Enabled
+SCRIPT    (W): @"scripts/4_World/entities\dayzplayerimplement.c,27": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+SCRIPT    (W): @"scripts/4_World/entities\itembase.c,551": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 4.58154 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 5.18057 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Overcast:: ( 5.75789 )  overcast: 0.433887
+SCRIPT       : Chernarus::Weather::Overcast::Rain:: ( 5.75789 ) 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 5.77959 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 6.37859 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain:: ( 6.97759 ) 0
+SCRIPT       : Chernarus::Weather::Rain:: ( 7.30773 ) 0.29986
+SCRIPT       : Chernarus::Weather::Rain:: ( 7.53115 ) 0.134061
+SCRIPT       : Chernarus::Weather::Rain:: ( 7.83127 ) 0.476617
+SCRIPT       : Chernarus::Weather::Fog:: ( 7.85056 ) 0
+SCRIPT       : Chernarus::Weather::Rain:: ( 8.04802 ) 0.294456
+SCRIPT       : Chernarus::Weather::Rain:: ( 8.64702 ) 0
+SCRIPT       : Chernarus::Weather::Rain:: ( 8.96048 ) 0.52092
+SCRIPT       : Chernarus::Weather::Rain:: ( 9.28729 ) 0.49274
+SCRIPT       : Chernarus::Weather::Rain:: ( 10.0783 ) 0
+SCRIPT       : Chernarus::Weather::Rain:: ( 10.285 ) 0.482107
+SCRIPT       : Chernarus::Weather::Rain:: ( 10.5018 ) 0.348674
+SCRIPT       : Chernarus::Weather::Overcast:: ( 10.7825 )  overcast: 0.834895
+SCRIPT       : Chernarus::Weather::Overcast::Rain:: ( 10.7825 ) 0.418968
+SCRIPT       : Chernarus::Weather::Rain:: ( 10.8319 ) 0.431341
+SCRIPT       : Chernarus::Weather::Rain:: ( 11.5368 ) 0
+SCRIPT       : Chernarus::Weather::Rain:: ( 11.7436 ) 0.475525
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 12.1371 ) 0.278912 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 12.7361 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 13.3351 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 13.9341 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Fog:: ( 13.9431 ) 0.0930342
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 14.5331 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 15.1321 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Overcast:: ( 15.5887 )  overcast: 0.267708
+SCRIPT       : Chernarus::Weather::Overcast::Rain:: ( 15.5887 ) 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 15.7311 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 16.3301 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 16.9291 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Fog:: ( 16.9649 ) 0.00910672
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 17.5281 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 18.1271 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 18.7261 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 19.3251 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 19.9241 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 20.5231 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Overcast:: ( 20.5483 )  overcast: 0.358028
+SCRIPT       : Chernarus::Weather::Overcast::Rain:: ( 20.5483 ) 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 21.1221 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 21.7211 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 22.3201 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain:: ( 22.9191 ) 0
+SCRIPT       : Chernarus::Weather::Fog:: ( 23.0573 ) 0.0692572
+SCRIPT       : Chernarus::Weather::Rain:: ( 23.2125 ) 0.130025
+SCRIPT       : Chernarus::Weather::Rain:: ( 23.5694 ) 0.0466323
+SCRIPT       : Chernarus::Weather::Rain:: ( 23.8728 ) 0.376959
+SCRIPT       : Chernarus::Weather::Rain:: ( 0.229647 ) 0.1664
+SCRIPT       : Chernarus::Weather::Rain:: ( 0.529773 ) 0.479986
+SCRIPT       : Chernarus::Weather::Rain:: ( 0.819893 ) 0.0548845
+SCRIPT       : Chernarus::Weather::Rain:: ( 1.03331 ) 0.0782603
+SCRIPT       : Chernarus::Weather::Overcast:: ( 1.62051 )  overcast: 0.691897
+SCRIPT       : Chernarus::Weather::Overcast::Rain:: ( 1.62051 ) 0
+SCRIPT       : Chernarus::Weather::Rain:: ( 1.63893 ) 0
+SCRIPT       : Chernarus::Weather::Rain:: ( 1.96907 ) 0.325807
+SCRIPT       : Chernarus::Weather::Rain:: ( 2.30588 ) 0.256911
+SCRIPT       : Chernarus::Weather::Rain:: ( 2.51596 ) 0.258385
+SCRIPT       : Chernarus::Weather::Rain:: ( 2.86278 ) 0.0215644
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 3.14956 ) 0.169314 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 3.74856 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 4.34756 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 4.94656 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Fog:: ( 5.14949 ) 0.0419931
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 5.54556 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 6.14456 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Overcast:: ( 6.39242 )  overcast: 0.484713
+SCRIPT       : Chernarus::Weather::Overcast::Rain:: ( 6.39242 ) 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 6.74356 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 7.34257 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 7.94157 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 8.54056 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 9.13956 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 9.73856 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 10.3376 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 10.9366 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Fog:: ( 11.2417 ) 0.148521
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 11.5356 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Overcast:: ( 12.0036 )  overcast: 0.396426
+SCRIPT       : Chernarus::Weather::Overcast::Rain:: ( 12.0036 ) 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 12.1346 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 12.7336 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 13.3326 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 13.9316 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 14.5306 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 15.1296 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 15.7286 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 16.3276 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Overcast:: ( 16.8811 )  overcast: 0.00120853
+SCRIPT       : Chernarus::Weather::Overcast::Rain:: ( 16.8811 ) 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 16.9266 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Fog:: ( 17.3338 ) 0.119086
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 17.5256 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 18.1246 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 18.7236 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 19.3226 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 19.9216 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Fog:: ( 20.3555 ) 0.0787841
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 20.5206 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 21.1196 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 21.7186 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 22.3176 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Overcast:: ( 22.3318 )  overcast: 0.0659475
+SCRIPT       : Chernarus::Weather::Overcast::Rain:: ( 22.3318 ) 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 22.9166 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Fog:: ( 23.3772 ) 0.0388025
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 23.5156 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 0.114604 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 0.713604 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 1.31261 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 1.91161 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Fog:: ( 2.39886 ) 0.038834
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 2.51061 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 3.10961 ) 0 -> 0
+SCRIPT       : Chernarus::Weather::Overcast:: ( 3.26736 )  overcast: 0.31507
+SCRIPT       : Chernarus::Weather::Overcast::Rain:: ( 3.26736 ) 0
+SCRIPT       : Chernarus::Weather::Rain::ForceEnd:: ( 3.70861 ) 0 -> 0
